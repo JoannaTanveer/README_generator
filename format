@@ -1,0 +1,67 @@
+#Title
+
+
+(https://img.shields.io/github/last-commit/${userName}/${repoName}?style=plastic)
+
+This is an application that ${shortDescription}. The purpose of this application is to solve ${problem}. 
+
+###Demo 
+gif
+
+IMAGE
+##Table of Contents
+    
+        *[Technologies](#technologies)
+        *[Installation](#installation)
+        *[Usage](#usage)
+        *[Credits](#credits)
+        *[Contributing](#contributing)
+        *[License](#license)
+
+###Technologies
+
+    The technologies utilized in this application are as follows: ${npmPackage}, ${technology2}, and ${technology3}. 
+    ${npmPackage} was used because ${tech1Why}. (https://img.shields.io/npm/l/${npmPackage}?style=plastic)
+    ${technology2} was used because ${tech2Why}. 
+    ${technology3} was used because ${tech3Why}. 
+
+###Installation
+
+    To run this application successfully follow these steps:
+    1-Install ${repositoryLink} to your local drive vis terminal/GitBash. This will install the package.json file which contains all the dependencies for this application. 
+    2-Verify that node is installed in your computer by typing 'node' in the terminal/GitBash. If it returns
+            Welcome to Node.js v12.14.1. (or higher)
+            Type ".help" for more information.
+        Node.js is installed in your computer. If nothing happens or there is an error, visit [Node.js](https://nodejs.org/) and install the LTS version.
+    3-
+
+###Usage
+
+    The purpose of this program is to solve ${problem}, as mentioned above. Let's look a little further at how that can be accomplished.
+    *${functionalityHighlight1}
+    *${functionalityHighlight2}
+
+###Credits
+
+    The Dev community prides itself in the open source culture that it celebrates and maintains. This application couldn't have been made possible without the help of
+    *${credit1} for ${pronoun1} ${helpwhy1}. ${helpLink1}
+    *${credit2} for ${pronoun2} ${helpwhy2}. ${helpLink2}
+    *${credit3} for ${pronoun3} ${helpwhy3}. ${helpLink3} 
+
+    ####Thank You!
+
+###Contributing
+
+###License
+        Licensed under the [${license}](license) license. (https://img.shields.io/github/license/${userName}/${repoName}?style=plastic)
+
+
+
+
+
+
+    
+    ###Installation
+    ###Usage
+    ###Credits
+    ###Contributing
