@@ -2,3 +2,18 @@
 node_modules/
 
 .DS_Store/
+
+*.DS_Store
+.DS_Store?
+
+stuff
+
+format
+
+stuff/
+stuff?
+*stuff
+
+*format
+format?
+format/
