@@ -1,57 +1,56 @@
-#jo
+# README generator
 
 
-    (https://img.shields.io/github/last-commit/jo/jo?style=plastic)
+    (https://img.shields.io/github/last-commit/JoannaTanveer/README_generator?style=plastic)
     
-    This is an application that jo. The purpose of this application is to solve jo. 
+    This is an application that This is a node.js application that will Prompt the user to answer a series of questions which are then dynamically added to a template. Immediately following a README.md file is generated in the application folder and is ready to commit.. The purpose of this application is to solve Developers spend months on an application, but only an hour on their readme. This application creates a quality README.md file without all the headaches of formating and styling.. 
     
-    ###Demo 
-    (jo)
-    [jo](jo)
-    ##Table of Contents
+    ### Demo 
+    (null)
+    
+    ## Table of Contents
         
-            *[Technologies](#technologies)
-            *[Installation](#installation)
-            *[Usage](#usage)
-            *[Credits](#credits)
-            *[Contributing](#contributing)
-            *[License](#license)
+    - [Technologies](#technologies)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Credits](#credits)
+    - [Contributing](#contributing)
+    - [License](#license)
     
-    ###Technologies
+    ### Technologies
     
-  
-    The technologies utilized in this application are as follows: jo, jo, and jo. 
-        jo was used because jo. (https://img.shields.io/npm/l/jo?style=plastic)
-        jo was used because jo. 
-        jo was used because jo. 
+    The technologies utilized in this application are as follows: inquirer, screencastify, and joij. 
+    inquirer was used because questions and answers. (https://img.shields.io/npm/l/inquirer?style=plastic)
+    screencastify was used because videa. 
+    joij was used because kjlkjlkj. 
     
-    ###Installation
+    ### Installation
     
-        To run this application successfully follow these steps:
-        1-Install undefined to your local drive vis terminal/GitBash. This will install the package.json file which contains all the dependencies for this application. 
-        2-Verify that node is installed in your computer by typing 'node' in the terminal/GitBash. If it returns
-                Welcome to Node.js v12.14.1. (or higher)
-                Type ".help" for more information.
-            Node.js is installed in your computer. If nothing happens or there is an error, visit [Node.js](https://nodejs.org/) and install the LTS version.
-        3-
+    To run this application successfully follow these steps:
+    1. Install undefined to your local drive vis terminal/GitBash. This will install the package.json file which contains all the dependencies for this application. 
+    2. Verify that node is installed in your computer by typing 'node' in the terminal/GitBash. If it returns
+        >Welcome to Node.js v12.14.1. (or higher)
+        >Type ".help" for more information.
     
-    ###Usage
+       Node.js is installed in your computer. If nothing happens or there is an error, visit [Node.js](https://nodejs.org/) and install the LTS version.
     
-        The purpose of this program is to solve jo, as mentioned above. Let's look a little further at how that can be accomplished.
-        *jo -  undefined
-        *jo -  undefined
+    ### Usage
     
-    ###Credits
+    The purpose of this program is to solve Developers spend months on an application, but only an hour on their readme. This application creates a quality README.md file without all the headaches of formating and styling., as mentioned above. Let's look a little further at how that can be accomplished.
+    - flfgkj;alksjdg because kgf;lkd
+    - flkdasfjh;lkdjs becasue
     
-        The Dev community prides itself in the open source culture that it celebrates and maintains. This application couldn't have been made possible without the help of
-        *jo for their undefined. jo
-        *jo for her undefined. jo
-        *jo for her undefined. jo 
+    ### Credits
     
-        ####Thank You!
+    The Dev community prides itself in the open source culture that it celebrates and maintains. This application couldn't have been made possible without the help of
+    - kfgsdkgj for his undefined. https://github.com/anthonychry
+    - fglis;doiguj for their undefined. https://www.linkedin.com/in/brian-duimstra-61878525/
+    - rgfsrga for it's undefined. gjrg;lkj 
     
-    ###Contributing
+        #### Thank You!
     
-    ###License
-            Licensed under the [MIT](license) license. (https://img.shields.io/github/license/jo/jo?style=plastic)
+    ### Contributing
+    
+    ### License
+    Licensed under the [MIT] license. (https://img.shields.io/github/license/JoannaTanveer/README_generator?style=plastic)
     
