@@ -13,6 +13,11 @@ const questions =  [
         name: 'userName'
     },
     {
+        type:'input',
+        message: 'Please provide your email address.',
+        name: 'email'
+    },
+    {
         type: 'input',
         message: 'What is your repositry name (exactly as it appears)',
         name: 'repoName'
@@ -26,7 +31,7 @@ const questions =  [
     {
         type: 'input',
         message: 'Please input the link to your repository',
-        name: 'respositoryLink'
+        name: 'repositoryLink'
     },
     {
         type: 'input',
@@ -40,7 +45,7 @@ const questions =  [
     },
     {
         type: 'input', 
-        message: 'Please input the relative path for a screenshot (.png) or .gif',
+        message: 'Please input the relative path for a screenshot (.png)',
         name: 'screenshot'
     },
     {
@@ -165,40 +170,43 @@ inquirer.prompt(inquiry).then( (answers) => {
 # ${answers.title}
 
 
-![Badge](https://img.shields.io/github/last-commit/${answers.userName}/${answers.repoName}?style=plastic)
-    
-This is an application that ${answers.shortDescription}. The purpose of this application is to solve ${answers.problem}. 
-    
-### Demo 
+![Badge](https://img.shields.io/github/last-commit/${answers.userName}/${answers.repoName}?style=plastic) ![Badge](https://img.shields.io/github/repo-size/${answers.userName}/${answers.repoName}?style=plastic)
+
 ![image relative path](${answers.screenshot})
-    
+
+${answers.shortDescription}
+${answers.problem}
+       
 ## Table of Contents
         
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Contributing](#contributing)
 - [License](#license)
-    
+- [Questions](#questions)
+
 ### Technologies
     
 The technologies utilized in this application are as follows: ${answers.npmPackage}, ${answers.technology2}, and ${answers.technology3}. 
-- ${answers.npmPackage} was used because ${answers.tech1Why}.![link] (https://img.shields.io/npm/l/${answers.npmPackage}?style=plastic)
+- ${answers.npmPackage} was used because ${answers.tech1Why}![link](https://img.shields.io/npm/v/${answers.npmPackage}?style=plastic?logo=npm)
 - ${answers.technology2} was used because ${answers.tech2Why}. 
 - ${answers.technology3} was used because ${answers.tech3Why}. 
     
 ### Installation
     
 To run this application successfully follow these steps:
-1. Install ![Link](${answers.repositoryLink}) to your local drive vis terminal/GitBash. This will install the package.json file which contains all the dependencies for this application. 
+1. Install [${answers.repoName}](${answers.repositoryLink}) to your local drive vis terminal/GitBash. This will install the package.json file which contains a list of all the dependencies for this application. 
+
 2. Verify that node is installed in your computer by typing 'node' in the terminal/GitBash. If it returns
     >Welcome to Node.js v12.14.1. (or higher)
     >
     >Type ".help" for more information.
     
  Node.js is installed in your computer. If nothing happens or there is an error, visit [Node.js](https://nodejs.org/) and install the LTS version.
-    
+3. Type 'npm install' while in the terminal to install the dependencies. 
+
+
 ### Usage
     
 The purpose of this program is to solve ${answers.problem}, as mentioned above. Let's look a little further at how that can be accomplished.
@@ -208,16 +216,18 @@ The purpose of this program is to solve ${answers.problem}, as mentioned above. 
 ### Credits
     
 The Dev community prides itself in the open source culture that it celebrates and maintains. This application couldn't have been made possible without the help of
-- ${answers.credit1} for ${answers.pronoun1} ${answers.helpwhy1}. ![link](${answers.helpLink1})
-- ${answers.credit2} for ${answers.pronoun2} ${answers.helpwhy2}. ![link](${answers.helpLink2})
-- ${answers.credit3} for ${answers.pronoun3} ${answers.helpwhy3}. ![link](${answers.helpLink3})
+- ${answers.credit1} for ${answers.pronoun1} ${answers.helpwhy1}. [${answers.credit1}](${answers.helpLink1})
+- ${answers.credit2} for ${answers.pronoun2} ${answers.helpwhy2}. [${answers.credit2}](${answers.helpLink2})
+- ${answers.credit3} for ${answers.pronoun3} ${answers.helpwhy3}. [${answers.credit3}](${answers.helpLink3})
     
 #### Thank You!
     
-### Contributing
     
 ### License
 Licensed under the ${answers.license} license. ![link](https://img.shields.io/github/license/${answers.userName}/${answers.repoName}?style=plastic)
+
+### Questions
+All questions and comments are welcome! Please contact me at ${answers.email} or visit my GitHub profile [${answers.userName}](https://github.com/${answers.userName})
 `
 
     writeToFile(format)
