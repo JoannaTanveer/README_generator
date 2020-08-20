@@ -59,4 +59,4 @@ The Dev community prides itself in the open source culture that it celebrates an
 Licensed under the MIT license. ![link](https://img.shields.io/github/license/JoannaTanveer/README_generator?style=plastic)
 
 ### Questions
-All questions and comments are welcome! Please contact me at joanna.tanveer@gmail.com or visit my GitHub profile [${answers.userName}](https://github.com/${answers.userName})
+All questions and comments are welcome! Please contact me at joanna.tanveer@gmail.com or visit my GitHub profile [Github Profile](https://github.com/${answers.userName})
