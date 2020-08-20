@@ -227,7 +227,7 @@ The Dev community prides itself in the open source culture that it celebrates an
 Licensed under the ${answers.license} license. ![link](https://img.shields.io/github/license/${answers.userName}/${answers.repoName}?style=plastic)
 
 ### Questions
-All questions and comments are welcome! Please contact me at ${answers.email} or visit my GitHub profile [${answers.userName}](https://github.com/${answers.userName})
+All questions and comments are welcome! Please contact me at ${answers.email} or visit my [Github Profile](https://github.com/${answers.userName})
 `
 
     writeToFile(format)
